@@ -1,0 +1,16 @@
+public class Demo {
+
+	public static void main(String[] args) {
+
+		for(int r=1;r<=9;r++) {
+			for(int c=1,v=r;c<=9;c++,v++) {
+				System.out.print(v % 10 < r? (v % 10)+1:(v % 10));
+				System.out.print(" ");
+			}
+			System.out.println();
+		}
+		
+	
+	}
+
+}
