@@ -1,0 +1,91 @@
+
+//1.Write a program for print odd numbers in descending order
+
+public class Numbers 
+{
+    public static void main(String[] args)
+    {
+    	int n;
+    	for(n=10;n>=1;n--)
+    	{
+    		if(n%2==1)
+    		{
+    			System.out.print(n+"\t");
+    		}
+    	}
+    }
+}
+
+
+
+//3.write a program for smallest number among 4 numbers
+
+public class Number {
+
+
+	public static void main(String[] args)
+	{
+          int a=40,b=30,c=20,d=10;
+          if(a<b)
+          {
+        	  if(a<c)
+        	  {
+        		  if(a<d)
+        		  {
+        			  System.out.print(a);
+        		  }
+        	  }
+          }
+          else if(b<c)
+          {
+        	  if(b<d)
+        	  {
+        		  System.out.print(b);
+        	  }
+          }
+          else if(c<d)
+          {
+        	  System.out.print(c);
+          }
+          else
+          {
+        	  System.out.print(d);
+          }
+
+	}
+
+}
+
+//4.write a Java program for find out string length without using length() function
+
+
+public class String 
+{
+     public static void main(String args[])
+     {
+    	 int i,num;
+    	 char ch[i]= {1,2,3,4,5};
+    	 for(i=0;i<=4;i++)
+    	 {
+    		 num++;
+    	 }
+     }
+}
+
+//5.write a Java program for print multiplication table
+
+
+public class Tables 
+{
+    public static void main(String args[])
+    {
+    	int i,j;
+    	for(i=1;i<=10;i++)
+    	{
+    		for(j=1;j<=10;j++)
+    		{
+    			System.out.println(i+"*"+j+"="+i*j)
+    		}
+    	}
+    }
+}
