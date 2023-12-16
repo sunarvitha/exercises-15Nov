@@ -1,0 +1,22 @@
+public class MultipleIfStatements 
+{
+	public static void main(String[] args) 
+  {
+		int noOfYears = 5;
+		int noOfleaves = 10;
+		int incentive = 0;	
+		if(noOfYears>=5 && (noOfleaves>=0 && noOfleaves<=30) ) 
+    {
+			incentive = 50000;
+		}
+		if(noOfYears>=5 && (noOfleaves>=31 && noOfleaves<=60) ) 
+    {
+			incentive = 20000;
+		}
+		if(noOfYears<5)
+    {
+			incentive = 0;
+		}
+		System.out.println(incentive);
+	}
+}
